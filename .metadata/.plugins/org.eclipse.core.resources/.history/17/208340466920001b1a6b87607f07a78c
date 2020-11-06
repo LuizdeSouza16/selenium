@@ -63,6 +63,7 @@ public class TestLocator {
 		driver.get("https://www.google.com");
 
 		driver.findElement(By.name("q")).sendKeys("iphone");
+		WebElement submit = driver.findElement(By.name("btnK"));
 		Actions ac = new Actions(driver);
 
 		ac.sendKeys(Keys.ENTER).build().perform();
