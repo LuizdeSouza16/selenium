@@ -1,0 +1,35 @@
+package aprendendo_selenium;
+
+import org.junit.Before;
+import org.junit.Test;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class PrimeirosPassos {
+	
+	WebDriver driver;
+	
+	@Before
+	public void preCondicao() {
+		System.setProperty("webdriver.chrome.driver", "c:/autodrivers/chromedriver.exe");
+		
+		WebDriver driver = new ChromeDriver();
+		driver.get("https://www.google.com");
+		driver.manage().window().maximize();
+	}
+	
+	@Test
+	public void meuPrimeiroTest() {
+		
+		
+		String title = driver.getTitle();
+		System.out.println(title);
+		
+		String url = driver.getCurrentUrl();
+		System.out.println(url);
+		
+	}
+	
+	
+
+}

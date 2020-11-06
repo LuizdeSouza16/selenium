@@ -1,0 +1,37 @@
+package framework.selenium;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.support.ui.Select;
+
+public class TestCorreio {
+   
+	static WebDriver driver;
+	public static void main(String[] args) {
+	
+		System.setProperty("webdriver.chrome.driver", "c:/autodrivers/chromedriver.exe");
+		
+		driver = new ChromeDriver();
+		
+		driver.get("http://www.buscacep.correios.com.br/sistemas/buscacep/buscaLogBairro.cfm");
+		
+		//Get combo box to state
+		Select selectUf = new Select(driver.findElement(By.name("UF")));
+		//Select State
+		selectUf.selectByVisibleText("RS");
+		//Find City
+		WebElement inputLocalidade = driver.findElement(By.name("Localidade"));
+		inputLocalidade.sendKeys("Esteio");
+		//Find Bairro
+		WebElement inputBairro = driver.findElement(By.name("Bairro"));
+		inputBairro.sendKeys("Três Marias");
+		
+		//Find Bairro
+		WebElement buttonSubmit = driver.findElement(By.cssSelector("input[type='submit']"));
+		buttonSubmit.click();
+		
+		
+   }
+}

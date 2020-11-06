@@ -1,0 +1,11 @@
+package framework.selenium.pacoteA;
+
+public class ClassePacoteA {
+	
+	public static String name;
+	protected int age;
+	
+	public static void print(String name, int age)	{
+		
+	}
+}

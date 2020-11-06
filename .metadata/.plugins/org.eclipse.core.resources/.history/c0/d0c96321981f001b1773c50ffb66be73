@@ -1,0 +1,13 @@
+package framework.selenium.pacoteB;
+
+import framework.selenium.pacoteA.ClassePacoteA;
+
+public class Car {
+
+	public static String color;
+	public static String age;
+	
+	public static void getModel() {
+		ClassePacoteA.
+	}
+}

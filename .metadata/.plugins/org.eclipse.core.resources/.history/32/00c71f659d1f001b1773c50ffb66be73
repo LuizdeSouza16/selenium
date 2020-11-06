@@ -1,0 +1,38 @@
+package framework.selenium;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.edge.EdgeDriver;
+
+public class TestCommandsBrowser {
+
+	 public static WebDriver driver;
+	
+	public static void main(String[] args) {
+		commandsBrowser();
+	}
+	
+	public static void commandsBrowser() {
+		System.setProperty("webdriver.edge.driver", "c:/autodrivers/msedgedriver.exe");
+		//Set driver
+		driver = new EdgeDriver();
+		
+		driver.get("https://www.facebook.com");
+		//maximize the window
+		driver.manage().window().maximize();
+		
+		//get title the page
+		String title = driver.getTitle();
+		System.out.println(title);
+		//Get current url
+		String url = driver.getCurrentUrl();
+		System.out.println(url);
+		
+		
+		//get sourcecode to the page
+        //String codeSource = driver.getPageSource();
+        //System.out.println(codeSource);
+		//close the actual window the browser
+		driver.close();
+	}
+}

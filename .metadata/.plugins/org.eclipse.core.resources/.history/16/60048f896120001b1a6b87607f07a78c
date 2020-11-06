@@ -1,0 +1,40 @@
+package framework.selenium;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.edge.EdgeDriver;
+
+public class TestJavascript {
+
+	static WebDriver driver;
+	
+	public static void main(String[] args) {
+		submarino();
+
+	}
+	
+	public static void submarino() {
+		System.setProperty("webdriver.edge.driver", "c:/autodrivers/msedgedriver.exe");
+		//Set driver
+		driver = new EdgeDriver();
+		//maximize the window
+		driver.manage().window().maximize();
+		
+		driver.get("https://submarino.com.br");
+		
+		JavascriptExecutor js  = (JavascriptExecutor) driver; 
+		
+		js.executeScript("document.getElementById('h_search-input').value='livros'");
+		
+		js.executeScript("document.getElementById('h_search-btn').click()");
+		
+		js.executeScript("window.scrollBy(0,450)", "")
+		String altLivro = "img[alt='Livro - A Fazenda dos Animais: Um conto de fadas']";
+		
+		WebElement livro = driver.findElement(By.cssSelector(altLivro));
+		js.executeScript("arguments[o].click()", livro);
+	}
+
+}

@@ -1,0 +1,35 @@
+package framework.selenium;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class TestCommandsBrowser {
+
+	 public static WebDriver driver;
+	
+	public static void main(String[] args) {
+		commandsBrowser();
+	}
+	
+	public static void commandsBrowser() {
+		System.setProperty("webdriver.chrome.driver", "c:\\autodriver\\chromedriver.exe");
+		//Set driver
+		ChromeDriver driver = new ChromeDriver();
+		
+		driver.get("https://www.eurogamer.net");
+		
+		//get title the page
+		String title = driver.getTitle();
+		System.out.println(title);
+		//Get current url
+		String url = driver.getCurrentUrl();
+		System.out.println(url);
+		
+		
+		//get sourcecode to the page
+		String codeSource = driver.getPageSource();
+		System.out.println(codeSource);
+		//close the actual window the browser
+		driver.close();
+	}
+}

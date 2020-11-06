@@ -1,0 +1,10 @@
+package aprendendo_selenium;
+
+import org.junit.after;
+
+public class ConhecendoAnotacoesJUnit {
+	
+	@beforeClass
+	
+
+}

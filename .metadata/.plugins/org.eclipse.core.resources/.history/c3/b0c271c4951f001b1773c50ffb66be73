@@ -1,0 +1,11 @@
+package framework.selenium.pacoteB;
+
+public class Car {
+
+	public static String color;
+	public static String age;
+	
+	public static void getModel() {
+		
+	}
+}

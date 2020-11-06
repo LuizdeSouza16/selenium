@@ -1,0 +1,17 @@
+package framework.selenium;
+
+import org.openqa.selenium.WebDriver;
+
+public class TestNavigateCommands {
+
+	WebDriver driver;
+	public static void main(String[] args) {
+		
+
+	}
+	
+	public static void navigate() {
+		
+	}
+
+}
