@@ -9,7 +9,7 @@ public class TestAdvancedLocators {
 	static WebDriver driver;
 
 	public static void main(String[] args) {
-		testCssSelectorClass();
+		advanced();
 	}
 
 	public static void advanced() {
@@ -42,4 +42,6 @@ public class TestAdvancedLocators {
 		driver.findElement(By.cssSelector("input#senha")).sendKeys("1234");
 		driver.findElement(By.cssSelector("button[type='submit']")).click();
 	}
+	
+
 }
