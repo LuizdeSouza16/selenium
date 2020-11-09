@@ -15,6 +15,7 @@ public class TestTable {
 		testTable();
 	}
 	
+	@SuppressWarnings("unused")
 	public static void testTable() {
 		System.setProperty("webdriver.chrome.driver", "c:/autodrivers/chromedriver.exe");
 		driver = new ChromeDriver();
