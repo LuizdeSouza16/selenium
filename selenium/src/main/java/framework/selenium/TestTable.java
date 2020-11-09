@@ -46,9 +46,7 @@ public class TestTable {
 					driver.findElement(By.xpath("//li[@class='function_edit']/a[@data-name='"+empresaEditar+"']")).click();
 					
 					break;
-				}
-				
-				
+				}		
 			}
 			break;
 		}
