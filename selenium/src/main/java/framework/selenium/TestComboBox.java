@@ -1,13 +1,14 @@
 package framework.selenium;
 
 
-import java.awt.Checkbox;
+import java.util.List;
 import java.util.concurrent.TimeUnit;
-
 import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.support.ui.Select;
 
 public class TestComboBox {
@@ -15,7 +16,7 @@ public class TestComboBox {
 	static  WebDriver driver;
 	
 	public static void main(String[] args) {
-		radioButton() ;
+		checkbox();
 	}
 	
 	private static void comboBox()  {
@@ -68,5 +69,30 @@ public class TestComboBox {
 
 	}
 	
-	Checkbox
+	private static void checkbox() {
+		System.setProperty("webdriver.edge.driver", "c:/autodrivers/msedgedriver.exe");
+		// Set driver
+		driver = new EdgeDriver();
+		// maximize the window
+		driver.manage().window().maximize();
+		driver.manage().timeouts().implicitlyWait(4, TimeUnit.SECONDS);
+		driver.manage().window().maximize();
+		driver.get("https://www.seleniumeasy.com/test");
+		
+		driver.findElement(By.linkText("Input Forms")).click();
+		driver.findElement(By.linkText("Checkbox Demo")).click();
+		
+		JavascriptExecutor js = (JavascriptExecutor) driver;
+		js.executeScript("window.scrollBy(0,500);");
+		
+		driver.findElement(By.cssSelector(".cb1-element")).click();
+
+		List<WebElement> labels  = driver.findElements(By.xpath("//label"));
+		
+		for (int i = 0; i < labels.size(); i++) {
+			if (labels.get(i).getAttribute("innerText").contentEquals("Option 2") ||labels.get(i).getAttribute("innerText").contentEquals("Option 4")){
+				labels.get(i).click();
+			}
+		}
+	}
 }
