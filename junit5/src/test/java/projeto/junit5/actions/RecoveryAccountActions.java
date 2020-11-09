@@ -2,7 +2,7 @@ package projeto.junit5.actions;
 
 import org.openqa.selenium.WebDriver;
 
-import projeto.junit6.pageobjects.RecoveryAccountObjects;
+import projeto.junit5.pageobjects.RecoveryAccountObjects;
 
 public class RecoveryAccountActions {
 	static RecoveryAccountObjects recovery;
@@ -11,8 +11,8 @@ public class RecoveryAccountActions {
 		recovery = new RecoveryAccountObjects(driver);
 	}
 	
-	public static void findAccount() {
-		recovery.getInpEmailRecovery().sendKeys("erick@erick.com");
+	public static void findAccount(String email) {
+		recovery.getInpEmailRecovery().sendKeys(email);
 		recovery.getButtonEmailRecovery().click();
 	}
 }

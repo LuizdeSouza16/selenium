@@ -5,10 +5,12 @@ import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Disabled;
+import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.api.Test;
+import org.junit.jupiter.params.ParameterizedTest;
+import org.junit.jupiter.params.provider.ValueSource;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.edge.EdgeDriver;
-
 import projeto.junit5.actions.HomeActions;
 import projeto.junit5.actions.RecoveryAccountActions;
 
@@ -39,6 +41,7 @@ class TestFacebook {
 	}
 	
 	@Test
+	@Tag("Credeciais")
 	void logarFacebook() throws Exception {
 		homeAct.login();
 	}
@@ -48,11 +51,12 @@ class TestFacebook {
 	void newUser() {
 		System.out.println("Novo usuário inserido");
 	}
-	
-	@Test
-	void recoveryPass() throws Exception {
+	@Tag("Recuperação")
+	@ParameterizedTest
+	@ValueSource(strings = {"erick@erick.com", "carlos@carlos.com", "maria@maria.com"})
+	void recoveryPass(String email) throws Exception {
 		homeAct.linkRecoveryPass();
-		accRecovery.findAccount();
+		accRecovery.findAccount(email);
 	}
 	
 	@AfterEach
