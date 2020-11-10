@@ -4,6 +4,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+import org.openqa.selenium.support.ui.Select;
 
 public class RegisterObjects {
 
@@ -34,7 +35,7 @@ public class RegisterObjects {
     private WebElement inputPostalCode;
 
     @FindBy(name = "country")
-    private WebElement selectCountry;
+    private Select selectCountry;
 
     @FindBy(name = "email")
     private WebElement inputEmail;
@@ -113,11 +114,11 @@ public class RegisterObjects {
         this.inputPostalCode = inputPostalCode;
     }
 
-    public WebElement getSelectCountry() {
+    public Select getSelectCountry() {
         return selectCountry;
     }
 
-    public void setSelectCountry(WebElement selectCountry) {
+    public void setSelectCountry(Select selectCountry) {
         this.selectCountry = selectCountry;
     }
 
