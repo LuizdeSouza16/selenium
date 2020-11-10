@@ -1,163 +1,193 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="15" passed="15" failed="0" skipped="0">
+<testng-results ignored="0" total="19" passed="19" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2020-11-10T10:06:07 BRT" name="Suite Test Udemy" finished-at="2020-11-10T10:06:07 BRT" duration-ms="212">
+  <suite started-at="2020-11-10T10:50:17 BRT" name="Suite Test Udemy" finished-at="2020-11-10T10:50:17 BRT" duration-ms="235">
     <groups>
+      <group name="void">
+        <method signature="TestsReturn.test3ClassReturn()[pri:0, instance:projeto.testeng.returntest.TestsReturn@5223e5ee]" name="test3ClassReturn" class="projeto.testeng.returntest.TestsReturn"/>
+        <method signature="TestsReturn.test4ClassReturn()[pri:0, instance:projeto.testeng.returntest.TestsReturn@5223e5ee]" name="test4ClassReturn" class="projeto.testeng.returntest.TestsReturn"/>
+      </group> <!-- void -->
+      <group name="retorno">
+        <method signature="TestsReturn.grettings()[pri:0, instance:projeto.testeng.returntest.TestsReturn@5223e5ee]" name="grettings" class="projeto.testeng.returntest.TestsReturn"/>
+        <method signature="TestsReturn.trueOrFalse()[pri:0, instance:projeto.testeng.returntest.TestsReturn@5223e5ee]" name="trueOrFalse" class="projeto.testeng.returntest.TestsReturn"/>
+      </group> <!-- retorno -->
       <group name="funcionais">
-        <method signature="Tests.test2()[pri:0, instance:projeto.testeng.tests.Tests@1a04f701]" name="test2" class="projeto.testeng.tests.Tests"/>
+        <method signature="Tests.test2()[pri:0, instance:projeto.testeng.tests.Tests@5dd6264]" name="test2" class="projeto.testeng.tests.Tests"/>
       </group> <!-- funcionais -->
       <group name="unitarios">
-        <method signature="Tests.test()[pri:0, instance:projeto.testeng.tests.Tests@1a04f701]" name="test" class="projeto.testeng.tests.Tests"/>
+        <method signature="Tests.test()[pri:0, instance:projeto.testeng.tests.Tests@5dd6264]" name="test" class="projeto.testeng.tests.Tests"/>
       </group> <!-- unitarios -->
       <group name="integracao">
-        <method signature="TestClass2.secondTestClass2()[pri:0, instance:projeto.testeng.tests.TestClass2@4e91d63f]" name="secondTestClass2" class="projeto.testeng.tests.TestClass2"/>
-        <method signature="TestClass2.thirdTestClass2()[pri:0, instance:projeto.testeng.tests.TestClass2@4e91d63f]" name="thirdTestClass2" class="projeto.testeng.tests.TestClass2"/>
-        <method signature="TestClass2.secondTestClass2()[pri:0, instance:projeto.testeng.tests.TestClass2@3eb7fc54]" name="secondTestClass2" class="projeto.testeng.tests.TestClass2"/>
-        <method signature="TestClass2.thirdTestClass2()[pri:0, instance:projeto.testeng.tests.TestClass2@3eb7fc54]" name="thirdTestClass2" class="projeto.testeng.tests.TestClass2"/>
-        <method signature="TestClassNew.secondTestPackage2()[pri:0, instance:projeto.testeng.newtests.TestClassNew@7f552bd3]" name="secondTestPackage2" class="projeto.testeng.newtests.TestClassNew"/>
-        <method signature="TestClassNew.thirdTestPackage2()[pri:0, instance:projeto.testeng.newtests.TestClassNew@7f552bd3]" name="thirdTestPackage2" class="projeto.testeng.newtests.TestClassNew"/>
+        <method signature="TestClass2.secondTestClass2()[pri:0, instance:projeto.testeng.tests.TestClass2@1ffe63b9]" name="secondTestClass2" class="projeto.testeng.tests.TestClass2"/>
+        <method signature="TestClass2.thirdTestClass2()[pri:0, instance:projeto.testeng.tests.TestClass2@1ffe63b9]" name="thirdTestClass2" class="projeto.testeng.tests.TestClass2"/>
+        <method signature="TestClass2.secondTestClass2()[pri:0, instance:projeto.testeng.tests.TestClass2@7ce3cb8e]" name="secondTestClass2" class="projeto.testeng.tests.TestClass2"/>
+        <method signature="TestClass2.thirdTestClass2()[pri:0, instance:projeto.testeng.tests.TestClass2@7ce3cb8e]" name="thirdTestClass2" class="projeto.testeng.tests.TestClass2"/>
+        <method signature="TestClassNew.secondTestPackage2()[pri:0, instance:projeto.testeng.newtests.TestClassNew@78b66d36]" name="secondTestPackage2" class="projeto.testeng.newtests.TestClassNew"/>
+        <method signature="TestClassNew.thirdTestPackage2()[pri:0, instance:projeto.testeng.newtests.TestClassNew@78b66d36]" name="thirdTestPackage2" class="projeto.testeng.newtests.TestClassNew"/>
+        <method signature="TestsReturn.test4ClassReturn()[pri:0, instance:projeto.testeng.returntest.TestsReturn@5223e5ee]" name="test4ClassReturn" class="projeto.testeng.returntest.TestsReturn"/>
+        <method signature="TestsReturn.trueOrFalse()[pri:0, instance:projeto.testeng.returntest.TestsReturn@5223e5ee]" name="trueOrFalse" class="projeto.testeng.returntest.TestsReturn"/>
       </group> <!-- integracao -->
       <group name="unitario">
-        <method signature="TestClass2.firstTestClass2()[pri:0, instance:projeto.testeng.tests.TestClass2@4e91d63f]" name="firstTestClass2" class="projeto.testeng.tests.TestClass2"/>
-        <method signature="TestClass2.fourthTestClass2()[pri:0, instance:projeto.testeng.tests.TestClass2@4e91d63f]" name="fourthTestClass2" class="projeto.testeng.tests.TestClass2"/>
-        <method signature="TestClass2.firstTestClass2()[pri:0, instance:projeto.testeng.tests.TestClass2@3eb7fc54]" name="firstTestClass2" class="projeto.testeng.tests.TestClass2"/>
-        <method signature="TestClass2.fourthTestClass2()[pri:0, instance:projeto.testeng.tests.TestClass2@3eb7fc54]" name="fourthTestClass2" class="projeto.testeng.tests.TestClass2"/>
-        <method signature="TestClassNew.firstTestPackage2()[pri:0, instance:projeto.testeng.newtests.TestClassNew@7f552bd3]" name="firstTestPackage2" class="projeto.testeng.newtests.TestClassNew"/>
-        <method signature="TestClassNew.fourthTestPackage2()[pri:0, instance:projeto.testeng.newtests.TestClassNew@7f552bd3]" name="fourthTestPackage2" class="projeto.testeng.newtests.TestClassNew"/>
+        <method signature="TestClass2.firstTestClass2()[pri:0, instance:projeto.testeng.tests.TestClass2@1ffe63b9]" name="firstTestClass2" class="projeto.testeng.tests.TestClass2"/>
+        <method signature="TestClass2.fourthTestClass2()[pri:0, instance:projeto.testeng.tests.TestClass2@1ffe63b9]" name="fourthTestClass2" class="projeto.testeng.tests.TestClass2"/>
+        <method signature="TestClass2.firstTestClass2()[pri:0, instance:projeto.testeng.tests.TestClass2@7ce3cb8e]" name="firstTestClass2" class="projeto.testeng.tests.TestClass2"/>
+        <method signature="TestClass2.fourthTestClass2()[pri:0, instance:projeto.testeng.tests.TestClass2@7ce3cb8e]" name="fourthTestClass2" class="projeto.testeng.tests.TestClass2"/>
+        <method signature="TestClassNew.firstTestPackage2()[pri:0, instance:projeto.testeng.newtests.TestClassNew@78b66d36]" name="firstTestPackage2" class="projeto.testeng.newtests.TestClassNew"/>
+        <method signature="TestClassNew.fourthTestPackage2()[pri:0, instance:projeto.testeng.newtests.TestClassNew@78b66d36]" name="fourthTestPackage2" class="projeto.testeng.newtests.TestClassNew"/>
+        <method signature="TestsReturn.grettings()[pri:0, instance:projeto.testeng.returntest.TestsReturn@5223e5ee]" name="grettings" class="projeto.testeng.returntest.TestsReturn"/>
+        <method signature="TestsReturn.test3ClassReturn()[pri:0, instance:projeto.testeng.returntest.TestsReturn@5223e5ee]" name="test3ClassReturn" class="projeto.testeng.returntest.TestsReturn"/>
       </group> <!-- unitario -->
     </groups>
-    <test started-at="2020-11-10T10:06:07 BRT" name="Testes do pacote 1" finished-at="2020-11-10T10:06:07 BRT" duration-ms="110">
+    <test started-at="2020-11-10T10:50:17 BRT" name="Testes do pacote 1" finished-at="2020-11-10T10:50:17 BRT" duration-ms="96">
       <class name="projeto.testeng.tests.Tests">
-        <test-method is-config="true" signature="beforeTest()[pri:0, instance:projeto.testeng.tests.Tests@1a04f701]" started-at="2020-11-10T10:06:07 BRT" name="beforeTest" finished-at="2020-11-10T10:06:07 BRT" duration-ms="11" status="PASS">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:projeto.testeng.tests.Tests@5dd6264]" started-at="2020-11-10T10:50:17 BRT" name="beforeTest" finished-at="2020-11-10T10:50:17 BRT" duration-ms="9" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method is-config="true" signature="before()[pri:0, instance:projeto.testeng.tests.Tests@1a04f701]" started-at="2020-11-10T10:06:07 BRT" name="before" finished-at="2020-11-10T10:06:07 BRT" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="before()[pri:0, instance:projeto.testeng.tests.Tests@5dd6264]" started-at="2020-11-10T10:50:17 BRT" name="before" finished-at="2020-11-10T10:50:17 BRT" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- before -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:projeto.testeng.tests.Tests@1a04f701]" started-at="2020-11-10T10:06:07 BRT" name="beforeMethod" finished-at="2020-11-10T10:06:07 BRT" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:projeto.testeng.tests.Tests@5dd6264]" started-at="2020-11-10T10:50:17 BRT" name="beforeMethod" finished-at="2020-11-10T10:50:17 BRT" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="test()[pri:0, instance:projeto.testeng.tests.Tests@1a04f701]" started-at="2020-11-10T10:06:07 BRT" name="test" finished-at="2020-11-10T10:06:07 BRT" duration-ms="2" status="PASS">
+        <test-method signature="test()[pri:0, instance:projeto.testeng.tests.Tests@5dd6264]" started-at="2020-11-10T10:50:17 BRT" name="test" finished-at="2020-11-10T10:50:17 BRT" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:projeto.testeng.tests.Tests@1a04f701]" started-at="2020-11-10T10:06:07 BRT" name="afterMethod" finished-at="2020-11-10T10:06:07 BRT" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:projeto.testeng.tests.Tests@5dd6264]" started-at="2020-11-10T10:50:17 BRT" name="afterMethod" finished-at="2020-11-10T10:50:17 BRT" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:projeto.testeng.tests.Tests@1a04f701]" started-at="2020-11-10T10:06:07 BRT" name="beforeMethod" finished-at="2020-11-10T10:06:07 BRT" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:projeto.testeng.tests.Tests@5dd6264]" started-at="2020-11-10T10:50:17 BRT" name="beforeMethod" finished-at="2020-11-10T10:50:17 BRT" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="test2()[pri:0, instance:projeto.testeng.tests.Tests@1a04f701]" started-at="2020-11-10T10:06:07 BRT" name="test2" finished-at="2020-11-10T10:06:07 BRT" duration-ms="1" status="PASS">
+        <test-method signature="test2()[pri:0, instance:projeto.testeng.tests.Tests@5dd6264]" started-at="2020-11-10T10:50:17 BRT" name="test2" finished-at="2020-11-10T10:50:17 BRT" duration-ms="3" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test2 -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:projeto.testeng.tests.Tests@1a04f701]" started-at="2020-11-10T10:06:07 BRT" name="afterMethod" finished-at="2020-11-10T10:06:07 BRT" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:projeto.testeng.tests.Tests@5dd6264]" started-at="2020-11-10T10:50:17 BRT" name="afterMethod" finished-at="2020-11-10T10:50:17 BRT" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:projeto.testeng.tests.Tests@1a04f701]" started-at="2020-11-10T10:06:07 BRT" name="beforeMethod" finished-at="2020-11-10T10:06:07 BRT" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method signature="test3()[pri:0, instance:projeto.testeng.tests.Tests@1a04f701]" started-at="2020-11-10T10:06:07 BRT" name="test3" finished-at="2020-11-10T10:06:07 BRT" duration-ms="2" status="PASS">
+        <test-method signature="test3()[pri:0, instance:projeto.testeng.tests.Tests@5dd6264]" started-at="2020-11-10T10:50:17 BRT" name="test3" finished-at="2020-11-10T10:50:17 BRT" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test3 -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:projeto.testeng.tests.Tests@1a04f701]" started-at="2020-11-10T10:06:07 BRT" name="afterMethod" finished-at="2020-11-10T10:06:07 BRT" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:projeto.testeng.tests.Tests@5dd6264]" started-at="2020-11-10T10:50:17 BRT" name="beforeMethod" finished-at="2020-11-10T10:50:17 BRT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:projeto.testeng.tests.Tests@5dd6264]" started-at="2020-11-10T10:50:17 BRT" name="afterMethod" finished-at="2020-11-10T10:50:17 BRT" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="after()[pri:0, instance:projeto.testeng.tests.Tests@1a04f701]" started-at="2020-11-10T10:06:07 BRT" name="after" finished-at="2020-11-10T10:06:07 BRT" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="after()[pri:0, instance:projeto.testeng.tests.Tests@5dd6264]" started-at="2020-11-10T10:50:17 BRT" name="after" finished-at="2020-11-10T10:50:17 BRT" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- after -->
-        <test-method is-config="true" signature="afterTest()[pri:0, instance:projeto.testeng.tests.Tests@1a04f701]" started-at="2020-11-10T10:06:07 BRT" name="afterTest" finished-at="2020-11-10T10:06:07 BRT" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:projeto.testeng.tests.Tests@5dd6264]" started-at="2020-11-10T10:50:17 BRT" name="afterTest" finished-at="2020-11-10T10:50:17 BRT" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
       </class> <!-- projeto.testeng.tests.Tests -->
       <class name="projeto.testeng.tests.TestClass2">
-        <test-method is-config="true" signature="BeforeClass2()[pri:0, instance:projeto.testeng.tests.TestClass2@4e91d63f]" started-at="2020-11-10T10:06:07 BRT" name="BeforeClass2" finished-at="2020-11-10T10:06:07 BRT" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="BeforeClass2()[pri:0, instance:projeto.testeng.tests.TestClass2@1ffe63b9]" started-at="2020-11-10T10:50:17 BRT" name="BeforeClass2" finished-at="2020-11-10T10:50:17 BRT" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BeforeClass2 -->
-        <test-method signature="firstTestClass2()[pri:0, instance:projeto.testeng.tests.TestClass2@4e91d63f]" started-at="2020-11-10T10:06:07 BRT" name="firstTestClass2" finished-at="2020-11-10T10:06:07 BRT" duration-ms="7" status="PASS">
+        <test-method signature="firstTestClass2()[pri:0, instance:projeto.testeng.tests.TestClass2@1ffe63b9]" started-at="2020-11-10T10:50:17 BRT" name="firstTestClass2" finished-at="2020-11-10T10:50:17 BRT" duration-ms="8" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- firstTestClass2 -->
-        <test-method signature="fourthTestClass2()[pri:0, instance:projeto.testeng.tests.TestClass2@4e91d63f]" started-at="2020-11-10T10:06:07 BRT" name="fourthTestClass2" finished-at="2020-11-10T10:06:07 BRT" duration-ms="3" status="PASS">
+        <test-method signature="fourthTestClass2()[pri:0, instance:projeto.testeng.tests.TestClass2@1ffe63b9]" started-at="2020-11-10T10:50:17 BRT" name="fourthTestClass2" finished-at="2020-11-10T10:50:17 BRT" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- fourthTestClass2 -->
-        <test-method signature="secondTestClass2()[pri:0, instance:projeto.testeng.tests.TestClass2@4e91d63f]" started-at="2020-11-10T10:06:07 BRT" name="secondTestClass2" finished-at="2020-11-10T10:06:07 BRT" duration-ms="4" status="PASS">
+        <test-method signature="secondTestClass2()[pri:0, instance:projeto.testeng.tests.TestClass2@1ffe63b9]" started-at="2020-11-10T10:50:17 BRT" name="secondTestClass2" finished-at="2020-11-10T10:50:17 BRT" duration-ms="3" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- secondTestClass2 -->
-        <test-method signature="thirdTestClass2()[pri:0, instance:projeto.testeng.tests.TestClass2@4e91d63f]" started-at="2020-11-10T10:06:07 BRT" name="thirdTestClass2" finished-at="2020-11-10T10:06:07 BRT" duration-ms="2" status="PASS">
+        <test-method signature="thirdTestClass2()[pri:0, instance:projeto.testeng.tests.TestClass2@1ffe63b9]" started-at="2020-11-10T10:50:17 BRT" name="thirdTestClass2" finished-at="2020-11-10T10:50:17 BRT" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- thirdTestClass2 -->
-        <test-method is-config="true" signature="afterClass2()[pri:0, instance:projeto.testeng.tests.TestClass2@4e91d63f]" started-at="2020-11-10T10:06:07 BRT" name="afterClass2" finished-at="2020-11-10T10:06:07 BRT" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="afterClass2()[pri:0, instance:projeto.testeng.tests.TestClass2@1ffe63b9]" started-at="2020-11-10T10:50:17 BRT" name="afterClass2" finished-at="2020-11-10T10:50:17 BRT" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass2 -->
       </class> <!-- projeto.testeng.tests.TestClass2 -->
     </test> <!-- Testes do pacote 1 -->
-    <test started-at="2020-11-10T10:06:07 BRT" name="Plano de pacote 1 e pacote 2" finished-at="2020-11-10T10:06:07 BRT" duration-ms="48">
+    <test started-at="2020-11-10T10:50:17 BRT" name="Plano de pacote 1 e pacote 2" finished-at="2020-11-10T10:50:17 BRT" duration-ms="79">
+      <class name="projeto.testeng.returntest.TestsReturn">
+        <test-method signature="grettings()[pri:0, instance:projeto.testeng.returntest.TestsReturn@5223e5ee]" started-at="2020-11-10T10:50:17 BRT" name="grettings" finished-at="2020-11-10T10:50:17 BRT" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- grettings -->
+        <test-method signature="test3ClassReturn()[pri:0, instance:projeto.testeng.returntest.TestsReturn@5223e5ee]" started-at="2020-11-10T10:50:17 BRT" name="test3ClassReturn" finished-at="2020-11-10T10:50:17 BRT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test3ClassReturn -->
+        <test-method signature="test4ClassReturn()[pri:0, instance:projeto.testeng.returntest.TestsReturn@5223e5ee]" started-at="2020-11-10T10:50:17 BRT" name="test4ClassReturn" finished-at="2020-11-10T10:50:17 BRT" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test4ClassReturn -->
+        <test-method signature="trueOrFalse()[pri:0, instance:projeto.testeng.returntest.TestsReturn@5223e5ee]" started-at="2020-11-10T10:50:17 BRT" name="trueOrFalse" finished-at="2020-11-10T10:50:17 BRT" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- trueOrFalse -->
+      </class> <!-- projeto.testeng.returntest.TestsReturn -->
       <class name="projeto.testeng.tests.TestClass2">
-        <test-method is-config="true" signature="BeforeClass2()[pri:0, instance:projeto.testeng.tests.TestClass2@3eb7fc54]" started-at="2020-11-10T10:06:07 BRT" name="BeforeClass2" finished-at="2020-11-10T10:06:07 BRT" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="BeforeClass2()[pri:0, instance:projeto.testeng.tests.TestClass2@7ce3cb8e]" started-at="2020-11-10T10:50:17 BRT" name="BeforeClass2" finished-at="2020-11-10T10:50:17 BRT" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BeforeClass2 -->
-        <test-method signature="firstTestClass2()[pri:0, instance:projeto.testeng.tests.TestClass2@3eb7fc54]" started-at="2020-11-10T10:06:07 BRT" name="firstTestClass2" finished-at="2020-11-10T10:06:07 BRT" duration-ms="2" status="PASS">
+        <test-method signature="firstTestClass2()[pri:0, instance:projeto.testeng.tests.TestClass2@7ce3cb8e]" started-at="2020-11-10T10:50:17 BRT" name="firstTestClass2" finished-at="2020-11-10T10:50:17 BRT" duration-ms="3" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- firstTestClass2 -->
-        <test-method signature="fourthTestClass2()[pri:0, instance:projeto.testeng.tests.TestClass2@3eb7fc54]" started-at="2020-11-10T10:06:07 BRT" name="fourthTestClass2" finished-at="2020-11-10T10:06:07 BRT" duration-ms="3" status="PASS">
+        <test-method signature="fourthTestClass2()[pri:0, instance:projeto.testeng.tests.TestClass2@7ce3cb8e]" started-at="2020-11-10T10:50:17 BRT" name="fourthTestClass2" finished-at="2020-11-10T10:50:17 BRT" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- fourthTestClass2 -->
-        <test-method signature="secondTestClass2()[pri:0, instance:projeto.testeng.tests.TestClass2@3eb7fc54]" started-at="2020-11-10T10:06:07 BRT" name="secondTestClass2" finished-at="2020-11-10T10:06:07 BRT" duration-ms="1" status="PASS">
+        <test-method signature="secondTestClass2()[pri:0, instance:projeto.testeng.tests.TestClass2@7ce3cb8e]" started-at="2020-11-10T10:50:17 BRT" name="secondTestClass2" finished-at="2020-11-10T10:50:17 BRT" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- secondTestClass2 -->
-        <test-method signature="thirdTestClass2()[pri:0, instance:projeto.testeng.tests.TestClass2@3eb7fc54]" started-at="2020-11-10T10:06:07 BRT" name="thirdTestClass2" finished-at="2020-11-10T10:06:07 BRT" duration-ms="3" status="PASS">
+        <test-method signature="thirdTestClass2()[pri:0, instance:projeto.testeng.tests.TestClass2@7ce3cb8e]" started-at="2020-11-10T10:50:17 BRT" name="thirdTestClass2" finished-at="2020-11-10T10:50:17 BRT" duration-ms="10" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- thirdTestClass2 -->
-        <test-method is-config="true" signature="afterClass2()[pri:0, instance:projeto.testeng.tests.TestClass2@3eb7fc54]" started-at="2020-11-10T10:06:07 BRT" name="afterClass2" finished-at="2020-11-10T10:06:07 BRT" duration-ms="2" status="PASS">
+        <test-method is-config="true" signature="afterClass2()[pri:0, instance:projeto.testeng.tests.TestClass2@7ce3cb8e]" started-at="2020-11-10T10:50:17 BRT" name="afterClass2" finished-at="2020-11-10T10:50:17 BRT" duration-ms="3" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass2 -->
       </class> <!-- projeto.testeng.tests.TestClass2 -->
       <class name="projeto.testeng.newtests.TestClassNew">
-        <test-method is-config="true" signature="BeforePackage2()[pri:0, instance:projeto.testeng.newtests.TestClassNew@7f552bd3]" started-at="2020-11-10T10:06:07 BRT" name="BeforePackage2" finished-at="2020-11-10T10:06:07 BRT" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="BeforePackage2()[pri:0, instance:projeto.testeng.newtests.TestClassNew@78b66d36]" started-at="2020-11-10T10:50:17 BRT" name="BeforePackage2" finished-at="2020-11-10T10:50:17 BRT" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BeforePackage2 -->
-        <test-method signature="firstTestPackage2()[pri:0, instance:projeto.testeng.newtests.TestClassNew@7f552bd3]" started-at="2020-11-10T10:06:07 BRT" name="firstTestPackage2" finished-at="2020-11-10T10:06:07 BRT" duration-ms="2" status="PASS">
+        <test-method signature="firstTestPackage2()[pri:0, instance:projeto.testeng.newtests.TestClassNew@78b66d36]" started-at="2020-11-10T10:50:17 BRT" name="firstTestPackage2" finished-at="2020-11-10T10:50:17 BRT" duration-ms="3" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- firstTestPackage2 -->
-        <test-method signature="fourthTestPackage2()[pri:0, instance:projeto.testeng.newtests.TestClassNew@7f552bd3]" started-at="2020-11-10T10:06:07 BRT" name="fourthTestPackage2" finished-at="2020-11-10T10:06:07 BRT" duration-ms="2" status="PASS">
+        <test-method signature="fourthTestPackage2()[pri:0, instance:projeto.testeng.newtests.TestClassNew@78b66d36]" started-at="2020-11-10T10:50:17 BRT" name="fourthTestPackage2" finished-at="2020-11-10T10:50:17 BRT" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- fourthTestPackage2 -->
-        <test-method signature="secondTestPackage2()[pri:0, instance:projeto.testeng.newtests.TestClassNew@7f552bd3]" started-at="2020-11-10T10:06:07 BRT" name="secondTestPackage2" finished-at="2020-11-10T10:06:07 BRT" duration-ms="2" status="PASS">
+        <test-method signature="secondTestPackage2()[pri:0, instance:projeto.testeng.newtests.TestClassNew@78b66d36]" started-at="2020-11-10T10:50:17 BRT" name="secondTestPackage2" finished-at="2020-11-10T10:50:17 BRT" duration-ms="4" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- secondTestPackage2 -->
-        <test-method signature="thirdTestPackage2()[pri:0, instance:projeto.testeng.newtests.TestClassNew@7f552bd3]" started-at="2020-11-10T10:06:07 BRT" name="thirdTestPackage2" finished-at="2020-11-10T10:06:07 BRT" duration-ms="3" status="PASS">
+        <test-method signature="thirdTestPackage2()[pri:0, instance:projeto.testeng.newtests.TestClassNew@78b66d36]" started-at="2020-11-10T10:50:17 BRT" name="thirdTestPackage2" finished-at="2020-11-10T10:50:17 BRT" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- thirdTestPackage2 -->
-        <test-method is-config="true" signature="afterPackages2()[pri:0, instance:projeto.testeng.newtests.TestClassNew@7f552bd3]" started-at="2020-11-10T10:06:07 BRT" name="afterPackages2" finished-at="2020-11-10T10:06:07 BRT" duration-ms="4" status="PASS">
+        <test-method is-config="true" signature="afterPackages2()[pri:0, instance:projeto.testeng.newtests.TestClassNew@78b66d36]" started-at="2020-11-10T10:50:17 BRT" name="afterPackages2" finished-at="2020-11-10T10:50:17 BRT" duration-ms="3" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterPackages2 -->
