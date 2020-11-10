@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite Parametrizada" allow-return-values="true">
+	<parameter name="nome" value="Erick"></parameter>
+	<parameter name="sobrenome" value="Von Newmann"></parameter>
+	<parameter name="cor" value="verde"></parameter>
+	<test name="TEstes parametrizados">
+		<classes>
+			<class name="projeto.testeng.testparam.TestesParametrizados"></class>
+		</classes>
+	</test>
+</suite> <!-- Suite Test Udemy -->

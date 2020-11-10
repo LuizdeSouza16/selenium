@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite Test Udemy" allow-return-values="true">
+<listeners >
+	<listener class-name="projeto.testeng.listener.TestListener"></listener>
+</listeners>
+	<test name="Testes do Listener">
+		<classes>
+			<class name="projeto.testeng.tests.TestClass2"></class>
+			<class name="projeto.testeng.newtests.TestClassNew"></class>
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite Test Udemy -->
