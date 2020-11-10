@@ -11,6 +11,8 @@ import projeto.udemy.actions.HomeActions;
 import projeto.udemy.actions.RegisterActions;
 import projeto.udemy.actions.ReservationActions;
 
+import java.util.concurrent.TimeUnit;
+
 public class TestsJUnit {
 
     static WebDriver driver;
@@ -25,6 +27,8 @@ public class TestsJUnit {
         System.setProperty("webdriver.edge.driver", "c:/autodrivers/msedgedriver.exe");
         // Set driver
         driver = new EdgeDriver();
+        //Wait devido a falha nos testes
+        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         //Site to test
         driver.get("http://demo.guru99.com/test/newtours/index.php");
         // maximize the window
