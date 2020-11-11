@@ -1,7 +1,6 @@
 package projeto.udemy.tests;
 
 import org.junit.jupiter.api.AfterAll;
-import  org.junit.jupiter.api.Assertions.*;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
 import org.openqa.selenium.WebDriver;
@@ -10,8 +9,9 @@ import projeto.udemy.actions.FlightActions;
 import projeto.udemy.actions.HomeActions;
 import projeto.udemy.actions.RegisterActions;
 import projeto.udemy.actions.ReservationActions;
-
 import java.util.concurrent.TimeUnit;
+import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertTrue;
 
 public class TestsJUnit {
 
@@ -43,8 +43,10 @@ public class TestsJUnit {
 
     @Test
     void register(){
+        assertEquals("http://demo.guru99.com/test/newtours/index.php", driver.getCurrentUrl());
         actHome.clickRegister();
         actReg.register();
+        assertTrue(driver.getCurrentUrl().contains("register_sucess"), "registro não foi criado");
     }
 
     @Test
@@ -64,5 +66,4 @@ public class TestsJUnit {
     static void closeEdge(){
         driver.close();
     }
-
 }

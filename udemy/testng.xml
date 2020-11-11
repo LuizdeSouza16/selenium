@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite Test Udemy" allow-return-values="true">
+    <test name="Suite de camada de Testes">
+        <classes>
+            <class name="projeto.udemy.tests.TestNg"></class>
+        </classes>
+    </test>
+</suite> <!-- Suite Test Udemy -->
